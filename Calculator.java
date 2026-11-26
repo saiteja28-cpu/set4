@@ -12,6 +12,8 @@ class Calculator {
         System.out.print("Enter operator (+,-,*,/): ");
         char op = sc.next().charAt(0);
 
+        System.out.println("Result");
+
         switch(op) {
             case '+': System.out.println(a+b); break;
             case '-': System.out.println(a-b); break;
